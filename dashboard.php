@@ -9,7 +9,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="btn btn-primary pull-right" style="color:white" href="./single_product.php">Add New</a>
+            <a class="btn btn-primary pull-right" style="color:white" href="./single_product.php">Add New Product</a>
 
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">

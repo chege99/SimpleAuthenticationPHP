@@ -4,18 +4,6 @@
   include('./components/header.php');
 ?>
 
-
-<!-- 
-
-category_id,
-prod_name,
-prod_buying_price,
-prod_selling_price,
-prod_quantity,
-prod_units_of_measure,
-prod_description
-
-category_id,owner_user_id,prod_name,prod_buying_price,prod_selling_price,prod_quantity,prod_units_of_measure,prod_description -->
     <div class="main-panel">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
@@ -62,9 +50,9 @@ category_id,owner_user_id,prod_name,prod_buying_price,prod_selling_price,prod_qu
                   <h4 class="card-title text-center">Product Details</h4>
                 </div>
                 <div class="card-body">
-                  
                   <form action="./php/exec_product.php" method="POST">
-                    <div class="row">
+
+                     <div class="row">
                       <div class="col-md-8">
                         <div class="form-group">
                           <label class="bmd-label-floating">Product Name</label>
@@ -72,7 +60,7 @@ category_id,owner_user_id,prod_name,prod_buying_price,prod_selling_price,prod_qu
                         </div>
                       </div>
 
-                       <div class="col-md-4">
+                      <div class="col-md-4">
                         <div class="form-group">
                        
                           <label class="bmd-label-floating">Category</label>
@@ -105,11 +93,10 @@ category_id,owner_user_id,prod_name,prod_buying_price,prod_selling_price,prod_qu
                           </select>
                         </div>
                       </div>
+                       
+                     </div>
 
-                    </div>
-
-
-                    <div class="row">
+                      <div class="row">
                       <div class="col-md-3">
                         <div class="form-group">
                           <label class="bmd-label-floating">Cost (Buying Price)</label>
@@ -136,6 +123,7 @@ category_id,owner_user_id,prod_name,prod_buying_price,prod_selling_price,prod_qu
                     </div>
                     </div>
                   
+
                  
 
                     <div class="row">
@@ -148,8 +136,8 @@ category_id,owner_user_id,prod_name,prod_buying_price,prod_selling_price,prod_qu
                         </div>
                       </div>
                     </div>
+
                     <button type="submit" class="btn btn-primary pull-right" name="save_product">Save</button>
-                    <div class="clearfix"></div>
                   </form>
 
                 </div>

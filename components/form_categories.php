@@ -9,7 +9,7 @@
       </div>
       <div class="card-body">
        
-        <form action="" method="POST">
+        <form action="./php/exec_categories.php" method="POST">
 
          
           <div class="row">
@@ -24,7 +24,7 @@
         
          <div class="d-flex justified">
             <button type="reset" class="btn btn-default pull-right">Reset</button>
-            <button type="submit" name="login" class="btn btn-primary pull-right">Save</button>
+            <button type="submit" name="save_details" class="btn btn-primary pull-right">Save</button>
          </div>
           <div class="clearfix"></div>
         </form>

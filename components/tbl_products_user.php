@@ -33,7 +33,10 @@ product_id,category,prod_name,prod_buying_price,prod_selling_price,prod_quantity
                 Stock
               </th>
               <th>
-               More
+               Units of measure
+              </th>
+              <th>
+               Description
               </th>
               <th>
                 Actions
@@ -89,10 +92,12 @@ product_id,category,prod_name,prod_buying_price,prod_selling_price,prod_quantity
                           <?php echo $prod_quantity; ?>
                       </td>
                       <td>
-                            <a href="">
-                              More Details
-                            </a>
+                             <?php echo $prod_units_of_measure; ?>
                       </td>
+                      <td>
+                             <?php echo $prod_description; ?>
+                      </td>
+
                       <td>
                              <a href="">
                               <i class="material-icons">edit</i>

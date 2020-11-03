@@ -3,7 +3,7 @@
 // CreateUser('stanley','ngugi','stanley.cns@gmail.com','awdqw',0);
 // UpdateUser(5,'3stanley','3ngugi','3stanley.cns@gmail.com','312344556',1220);
 // DeleteUser(1);
-CreateUser("Percy","Jackson","percy@gmail.com","1bbd886460827015e5d605ed44252251",1);
+//CreateUser("Percy","Jackson","percy@gmail.com","1bbd886460827015e5d605ed44252251",1);
 
 function CreateUser($firstname,$lastname,$email,$passwordX,$is_admin){
 	require_once('./dbcon.php');
@@ -14,7 +14,7 @@ function CreateUser($firstname,$lastname,$email,$passwordX,$is_admin){
 			'".$firstname."',
 			'".$lastname."',
 			'".$email."',
-			'".$password."',
+			'".$passwordX."',
 			'".$is_admin."')
 	";
 	

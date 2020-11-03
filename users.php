@@ -1,6 +1,14 @@
 <?php
+
+
   $page_title = 'users';
   include('./php/session.php');
+
+  if($_SESSION['is_admin']!=1){
+    //if user is not admin, redirect to dashboar
+    header('location: ./dashboard.php');
+  }
+
   include('./components/header.php');
 ?>
 

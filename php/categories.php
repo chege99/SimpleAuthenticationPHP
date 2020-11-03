@@ -2,7 +2,7 @@
 //category_id,category	
 
 // CreateCategory("Solid");
-DeleteCategory(1);
+//DeleteCategory(1);
 // UpdateCategory(1,'Liquid');
 
 function CreateCategory($category){

@@ -61,13 +61,20 @@
                             echo ($is_admin == 0) ? 'User' : 'Administrator'; 
                         ?>
                       </td>
-                      <td>
-                             <a href="">
+                      <td class="actions">
+                         <form action="./single_user.php" method="POST">
+                            <input type="text" name="user_id" value="<?php echo $user_id; ?>" hidden/>
+                            <button class="action-link" name="edit_user">
                               <i class="material-icons">edit</i>
-                            </a>
-                             <a href="">
+                            </button>
+                        </form>
+
+                        <form action="./php/exec_user.php" method="POST">
+                            <input type="text" name="user_id" value="<?php echo $user_id; ?>" hidden/>
+                            <button class="action-link" name="delete_user">
                               <i class="material-icons">delete</i>
-                            </a>
+                            </button>
+                        </form>
                       </td>
                   </tr>
 
